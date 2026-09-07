@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(220,220,220);
+    width: 56.25em;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    color: rgb(136,136,136);
+    border-color: rgb(213,213,213);
+}
+
+header {
+    height: 15.5em;
+    background-color: rgb(114,172,69);
+    position: relative;
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-size: 1.9em;
+}
+#wwf img{
+    position: absolute;
+    top: 7em;
+    left: 3em;
+    border: 0.2em solid black;
+}
+main{
+    padding: 2em;
+    background-color: white;
+}
+#btns a{
+    font-size: 1em;
+    color: rgb(114,172,69);
+    border: 0.0625em solid rgb(220,220,220);
+    padding: 0.5em 0.5em;
+}
+#plan {
+    font-size: 2.1em;
+    color: rgb(136,136,136);
+}
+#engage {
+    font-size: 1.5em;
+    color: rgb(114,172,69);
+}

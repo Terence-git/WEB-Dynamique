@@ -55,9 +55,35 @@ h2 {
 #blocImage img {
     width: 14em;
     height: auto;
-    border: 0.4em solid rgb(136,136,136);;
+    border: 0.5em solid rgb(136,136,136);
     border-radius: 1em;
 }
 b {
     color: rgb(114,172,69);
+}
+textarea {
+    width: 98%;
+    height: 30em;
+    margin-top: 1em;
+}
+button {
+    margin-top: 1em;
+    width: 13em;
+    height: 3em;
+}
+#bot{
+    width: 51.5em;
+    border-radius: 1em;
+}
+footer {
+    background-color: rgb(136,136,136);
+    position: relative;
+    padding: 1.5em 2em;
+    box-sizing: border-box;
+}
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-size: 1em;
 }

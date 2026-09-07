@@ -35,11 +35,29 @@ main{
     border: 0.0625em solid rgb(220,220,220);
     padding: 0.5em 0.5em;
 }
-#plan {
+h2 {
     font-size: 2.1em;
     color: rgb(136,136,136);
 }
 #engage {
     font-size: 1.5em;
+    color: rgb(114,172,69);
+}
+#blocImage{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+#blocImage .text{
+    flex: 1;
+    text-align: justify;
+}
+#blocImage img {
+    width: 14em;
+    height: auto;
+    border: 0.4em solid rgb(136,136,136);;
+    border-radius: 1em;
+}
+b {
     color: rgb(114,172,69);
 }
